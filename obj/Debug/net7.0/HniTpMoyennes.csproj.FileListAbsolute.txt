@@ -1,0 +1,15 @@
+D:\boulot\eclipseWorkspace\HniTpMoyennes\bin\Debug\net7.0\HniTpMoyennes.exe
+D:\boulot\eclipseWorkspace\HniTpMoyennes\bin\Debug\net7.0\HniTpMoyennes.deps.json
+D:\boulot\eclipseWorkspace\HniTpMoyennes\bin\Debug\net7.0\HniTpMoyennes.runtimeconfig.json
+D:\boulot\eclipseWorkspace\HniTpMoyennes\bin\Debug\net7.0\HniTpMoyennes.dll
+D:\boulot\eclipseWorkspace\HniTpMoyennes\bin\Debug\net7.0\HniTpMoyennes.pdb
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.csproj.AssemblyReference.cache
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.GeneratedMSBuildEditorConfig.editorconfig
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.AssemblyInfoInputs.cache
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.AssemblyInfo.cs
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.csproj.CoreCompileInputs.cache
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.dll
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\refint\HniTpMoyennes.dll
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.pdb
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\HniTpMoyennes.genruntimeconfig.cache
+D:\boulot\eclipseWorkspace\HniTpMoyennes\obj\Debug\net7.0\ref\HniTpMoyennes.dll
