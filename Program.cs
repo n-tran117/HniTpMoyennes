@@ -36,11 +36,6 @@
                 }
             }
 
-            foreach (Matiere m in sixiemeA.matieres)
-            {
-                Console.Write(m.matiereIntitule + "\n");
-            }
-
             Eleve eleve = sixiemeA.eleves[6];
             // Afficher la moyenne d'un élève dans une matière
             Console.Write(eleve.prenom + " " + eleve.nom + ", Moyenne en " + sixiemeA.matieres[1] + " : " +
