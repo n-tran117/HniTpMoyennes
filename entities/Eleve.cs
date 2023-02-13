@@ -20,7 +20,15 @@ namespace TPMoyennes
 
         public void ajouterNote(Note note)
         {
-            notesList.Add(note);
+            if (notesList.Count < 200)
+            {
+                notesList.Add(note);
+            }
+            else
+            {
+                Console.Write("Cet élève à déjà eu 200 notes !!!");
+            }
+
         }
 
         public double Moyenne(int matiereId)
@@ -41,12 +49,17 @@ namespace TPMoyennes
 
         public double Moyenne()
         {
+            List<int> matiereDone = new List<int>();
             double res = 0;
             foreach (Note note in notesList)
             {
-                res += note.note;
+                if (!matiereDone.Contains(note.matiere))
+                {
+                    matiereDone.Add(note.matiere);
+                    res += Moyenne(note.matiere);
+                }
             }
-            return Math.Round(res / notesList.Count, 2);
+            return Math.Round(res / matiereDone.Count, 2);
         }
 
     }

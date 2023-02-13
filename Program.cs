@@ -44,10 +44,10 @@
             Console.Write(eleve.prenom + " " + eleve.nom + ", Moyenne Generale : " + eleve.Moyenne() + "\n");
             // Afficher la moyenne de la classe dans une matière
             Console.Write("Classe de " + sixiemeA.nomClasse + ", Moyenne en " + sixiemeA.matieres[1] + " : " +
-            sixiemeA.Moyenne(1) + "\n");
+             sixiemeA.Moyenne(1) + "\n");
             // Afficher la moyenne générale de la classe
             Console.Write("Classe de " + sixiemeA.nomClasse + ", Moyenne Generale : " + sixiemeA.Moyenne() + "\n");
-            Console.Read();
+            //Console.Read();
         }
     }
 }

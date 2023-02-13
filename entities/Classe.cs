@@ -19,12 +19,30 @@ namespace TPMoyennes
 
         public void ajouterEleve(string prenom, string nom)
         {
-            eleves.Add(new Eleve(prenom, nom));
+            if (eleves.Count < 30)
+            {
+                eleves.Add(new Eleve(prenom, nom));
+            }
+            else
+            {
+                Console.Write("Cette classe a déjà 30 élèves assigné.\n" +
+                "Il y en a déjà trop dans cette classe !!!");
+            }
+
         }
 
         public void ajouterMatiere(string intitule)
         {
-            matieres.Add(new Matiere(intitule));
+            if (matieres.Count < 10)
+            {
+                matieres.Add(new Matiere(intitule));
+            }
+            else
+            {
+                Console.Write("Cette classe a déjà 10 matiere assigné.\n" +
+                "Les élèves ne sont pas assez intelligents pour en apprendre plus !!!");
+            }
+
         }
 
         public double Moyenne(int matiereId)
@@ -40,11 +58,11 @@ namespace TPMoyennes
         public double Moyenne()
         {
             double res = 0;
-            foreach (Eleve eleve in eleves)
+            for (int matiere = 0; matiere < matieres.Count; matiere++)
             {
-                res += eleve.Moyenne();
+                res += Moyenne(matiere);
             }
-            return Math.Round(res / eleves.Count, 2);
+            return Math.Round(res / matieres.Count, 2);
         }
 
     }
